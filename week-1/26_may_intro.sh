@@ -15,14 +15,17 @@ cd ~/
 # Go up one directory from the current location
 cd ..
 
+# Print the files
+lp 
+
+# Print the working directory
+pwd 
+
 # Print a simple message to the terminal
 echo 'Hey There I am learning bash'
 
 # This will just print the string '2 + 2', not calculate it
 echo '2 + 2'
-
-# Correct way to do arithmetic in Bash
-echo "The result of 2 + 2 is: $((2 + 2))"
 
 # Create a new directory called "practice"
 mkdir practice
@@ -33,34 +36,8 @@ cd practice
 # Create a new empty file called "example.txt"
 touch example.txt
 
+# Adding output from operating system to a file
+sort -n genelist_scores > genelist.sorted
+
 # Write some text into the file
-echo "This is a test file." > example.txt
-
-# Append another line to the file
-echo "Learning Bash scripting is fun!" >> example.txt
-
-# Display the contents of the file
-cat example.txt
-
-# Set a variable and print it
-my_name="Alex"
-echo "My name is $my_name"
-
-# Conditional example
-num=10
-if [ $num -gt 5 ]; then
-  echo "$num is greater than 5"
-else
-  echo "$num is not greater than 5"
-fi
-
-# Loop example: print numbers 1 to 5
-for i in {1..5}; do
-  echo "Number: $i"
-done
-
-# Show current date and time
-date
-
-# Show disk usage of current directory
-du -sh .
+echo "This is a test file." > example.tx
