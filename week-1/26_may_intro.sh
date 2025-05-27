@@ -40,4 +40,4 @@ touch example.txt
 sort -n genelist_scores > genelist.sorted
 
 # Write some text into the file
-echo "This is a test file." > example.tx
+echo "This is a test file." > example.txt
