@@ -41,12 +41,12 @@ Some of the commands I learnt are:
 find
 ```
 
-1. To see settings and change them.
+2. To see settings and change them.
 ```bash
 stty
 ```
 
-1. Some of the control keys are: 
+3. Some of the control keys are: 
 ```bash
 CTRL-M  
 CTRL-D
@@ -57,18 +57,18 @@ CTRL-U
 CTRL-?
 ```
 
-1. `help` command: This command gives information about the command. Using 'more' will show one screenful at a time.
+4. `help` command: This command gives information about the command. Using 'more' will show one screenful at a time.
 ```bash
 help 
 ```
 
-2. To enter editing mode in shell using set command.
+5. To enter editing mode in shell using set command.
 ```bash
 set -o emacs
 set -o vi   
 ```
 
-3. To see bash history
+6. To see bash history
 ```bash
 .bash_history
 ```
