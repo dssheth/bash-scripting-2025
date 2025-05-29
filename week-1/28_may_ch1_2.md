@@ -32,7 +32,7 @@ bash starts as emacs-mode. Editing mode in shell can be done by using set comman
 
 7. The History List
 
-The commands typed are recorded as typed in shell.
+The commands typed are recorded in shell history.
 
 
 Some of the commands I learnt are:
