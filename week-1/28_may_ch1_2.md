@@ -22,6 +22,7 @@ Special character including wildcards have specific meaning to shell. Using spec
 We can quote the RETURN key by ending line with backslash or not closing the quotation mark and remove the original meaning of RETURN key.
 
 5. Control keys and help command
+   
 Control keys are type of special character which do not print anything on screen but considered as special commands by system.  
 The help command in gives information about the commands when you type help with the command.
 
