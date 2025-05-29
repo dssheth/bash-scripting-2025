@@ -69,7 +69,11 @@ set -o emacs
 set -o vi   
 ```
 
-6. To see bash history
+6. The bash command history when shell is exitted is saved in this file.
 ```bash
 .bash_history
+```
+7. To call bash history file.
+```bash
+echo $HISTFILE
 ```
