@@ -15,7 +15,6 @@ echo '3 * 4 > 15' is a invalid inequality.
 #output: '3 * 4 > 15 is a invalid inequality.'
 
 # Using backslash-escaping
-
 echo 3 \* 4 \> 15 is a invalid inequality.
 #output: 3 \* 4 \> 15 is a invalid inequality.
 
@@ -24,7 +23,7 @@ echo \"3 \* 4 \> 15\" is a valid inequality.
 #output: "3 * 4 > 15" is a valid inequality.
 
 # Single quotes inside quoted commands will not work.
-echo 'Hello, it\'s nice to meet you biology researchers'     '
+echo 'Hello, it\'s nice to meet you biology researchers' 
 #output: no output as open quotation mark
 
 # Remove the quotation marks to get the sentence
