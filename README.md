@@ -14,4 +14,6 @@ In this week, I began with learning the bash scripting basics from chapter 1 of 
 
 - [Day 03 - 28 May 2025 - The Basics of Bash Scripting](/week-1/28_may_ch1_2.md)
 
-- [Day 04 - 29 May 2025 - The Basics of Bash Scripting](/week-1/29_may_ch2_3.md)
+- [Day 04 - 29 May 2025 - The Basics of Bash Scripting](/week-1/29_may_ch2_3.md)-
+
+- [Day 05 - 30 May 2025 - The Basics of Bash Scripting](/week-1/30_may_ch3.md)-

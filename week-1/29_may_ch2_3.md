@@ -1,4 +1,4 @@
-# 28 May 2025 Report - Day 3 - Basics of bash scripting
+# 29 May 2025 Report - Day 4 - Basics of bash scripting
 
 ## Content
 
@@ -15,7 +15,7 @@ The command-line editing interface of bash is readline. It provides editing in e
 
 4. Key Bindings
 Using bind we can see the current settings of bash command line. usomizing your envioronment.
-
+- [Day 04 - 29 May 2025 - The Basics of Bash Scripting](/week-1/29_may_ch2_3.md)-
 5.  Start Chapter 3: Customizing your environment.  
 Envirnment is collection of concepts 
 
