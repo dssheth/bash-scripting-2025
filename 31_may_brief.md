@@ -1,4 +1,4 @@
-# 30 May 2025 Report - Day 5 - Basics of bash scripting
+# 31 May 2025 Report - Day 6 - Basics of bash scripting
 
 ## Content
 
