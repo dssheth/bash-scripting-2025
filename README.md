@@ -21,3 +21,5 @@ In this week, I began with learning the bash scripting basics from chapter 1 of 
 - [Day 06 - 31 May 2025 - Bash basics](/week-1/31_may_ch3.md)
 
 - [Day 07 - 1 June 2025 - Bash basics](/week-1/1_june_video.md)
+
+- [Day 08 - 2 June 2025 - Bash Basics CH-3](/week-2/2_June_ch-3.md)

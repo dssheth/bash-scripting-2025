@@ -15,3 +15,6 @@ echo $HISTSIZE
 
 # To see time stamp of each history entry
 echo $HISTTIMEFORMAT
+
+# Path to file of command history
+echo $HISTFILE

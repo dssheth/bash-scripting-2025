@@ -9,7 +9,7 @@ Topics I learned today are:
 1. Shopt    
 This is a new built-in for configuring shell behavior as replacment for the 'option' configuration.sf
 
-2. Shell Variables: Variables and Quoting 
+2. Shell Variables
 Shell variables have a specific value and there are few built-in in bash. The value can be used by having '$' sign before the variable in the command. 
 
 3. Built-in variables   

@@ -41,7 +41,7 @@ fc -s
 ```
 
 4. `bind` command: This command will show the current settings of bash terminal
-```bah
+```bash
 bind
 ```
 
