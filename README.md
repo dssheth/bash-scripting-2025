@@ -4,9 +4,19 @@ This is my home repository for all the files related to my work of learning bash
 
 I joined the google classroom on May 26, 2025. And I began my work from the same date.
 
+## Notes
+
+Here are my notes of chapters made while studying the chapter for quick referencing in the videos.
+
+- [Chapter 01 - Bash Basics](/notes/01_bash_basics/notes_01.markdown)
+- [Chapter 02 - Command Line Editing](/notes/01_bash_basics/notes_01.markdown)
+- [Chapter 03 - Customizing Your Environment](/notes/03_customizing_your_env/notes_03.md)
+
+... Add more
+
 ## Week 1
 
-In this week, I began with learning the bash scripting basics from chapter 1 of the book.
+In this week, I began with learning the bash scripting basics from chapter 1, 2, 3 half of the book.
 
 - [Day 01 - 26 May 2025 - The Intro to world of Bash Scripting](/week-1/26_may_intro.md)
 
@@ -20,6 +30,10 @@ In this week, I began with learning the bash scripting basics from chapter 1 of 
 
 - [Day 06 - 31 May 2025 - Bash basics](/week-1/31_may_brief.md)
 
-- [Day 07 - 1 June 2025 - Bash basics](/week-1/1_june_video.md)
+- [Day 07 - 01 June 2025 - Bash basics](/week-1/01_june_video.md)
 
-- [Day 08 - 2 June 2025 - Bash Basics CH-3](/week-2/2_June_ch-3.md)
+## Week 2
+
+Continuing the chapter 3.
+
+- [Day 08 - 02 June 2025 - Bash Basics CH-3](/week-2/02_June_ch-3.md)
