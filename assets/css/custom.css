@@ -1,12 +1,12 @@
 /* Custom styles to enhance jekyll-theme-modernist */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    /* font-size: 1.2rem; */
     /* Larger base font size */
     line-height: 1.7;
     color: #AACCFF;
     background-color: #222233;
-    padding: 1rem 2rem 0 2rem;
+    /* padding: 1rem 2rem 0 2rem; */
     margin: 0;
     animation: fadeIn 0.5s ease-in;
 }
