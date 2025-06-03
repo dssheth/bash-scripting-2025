@@ -31,7 +31,7 @@ In this week, I began with learning the bash scripting basics from chapter 1, 2,
 
 - [Day 04 - 29 May 2025 - The Basics of Bash Scripting](/week-1/29_may_ch2_3.md)
 
-- [Day 05 - 30 May 2025 - The Basics of Bash Scripting](/week-1/30_may_ch3.md)
+- [Day 05 - 30 May 2025 - Customizing Your Environment](/week-1/30_may_ch3.md)
 
 - [Day 06 - 31 May 2025 - Bash basics](/week-1/31_may_brief.md)
 
@@ -41,4 +41,6 @@ In this week, I began with learning the bash scripting basics from chapter 1, 2,
 
 Continuing the chapter 3.
 
-- [Day 08 - 02 June 2025 - Bash Basics CH-3](/week-2/02_June_ch-3.md)
+- [Day 08 - 02 June 2025 - Customizing Your Environment CH-3](/week-2/02_June_ch-3.md)
+
+- [Day 09 - 03 June 2025 - Customizing Your Environment CH-3](/week-2/03_june_ch-3.md)
