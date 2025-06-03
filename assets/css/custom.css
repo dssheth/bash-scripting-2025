@@ -1,13 +1,18 @@
 /* Custom styles to enhance jekyll-theme-modernist */
 body {
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    /* font-size: 1.2rem; */
-    /* Larger base font size */
+    font-size: 1.3rem;
+    /* Larger base font size for better readability */
     line-height: 1.7;
     color: #AACCFF;
     background-color: #222233;
-    /* padding: 1rem 2rem 0 2rem; */
+    padding: 1.5rem 2.5rem 0 2.5rem;
+    /* Slightly increased padding */
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensure footer stays at bottom */
     animation: fadeIn 0.5s ease-in;
 }
 
@@ -22,8 +27,11 @@ body {
 }
 
 .site-header {
+    display: flex;
+    justify-content: center;
     background: linear-gradient(90deg, #2b6cb0, #1a202c);
-    padding: 2rem 0;
+    padding: 2.5rem 0;
+    /* Increased padding */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
@@ -33,7 +41,8 @@ body {
 .site-title {
     color: #ffffff !important;
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
+    /* Larger title */
     margin: 0;
     text-align: center;
 }
@@ -41,7 +50,8 @@ body {
 .site-nav .page-link {
     color: #e2e8f0 !important;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    /* Larger nav links */
     margin: 0 1.5rem;
     transition: color 0.3s ease;
 }
@@ -53,27 +63,33 @@ body {
 .hero {
     background-color: #2d3748;
     color: #e2e8f0;
-    padding: 2.5rem;
+    padding: 3rem;
+    /* Increased padding */
     text-align: center;
-    margin: 2rem auto;
+    margin: 2.5rem auto;
+    /* Slightly larger margin */
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     max-width: 900px;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3.2rem;
+    /* Larger hero title */
+    margin-bottom: 1.2rem;
 }
 
 .main-content {
     max-width: 900px;
     margin: 3rem auto;
-    padding: 2rem;
+    padding: 2.5rem;
+    /* Increased padding */
     background: #2d3748;
     color: #e2e8f0;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    /* Ensure main content takes available space */
 }
 
 h1,
@@ -87,11 +103,13 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+    /* Larger h1 */
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    /* Larger h2 */
     margin-top: 2.5rem;
     border-bottom: 2px solid #90cdf4;
     padding-bottom: 0.5rem;
@@ -100,12 +118,14 @@ h2 {
 a {
     color: #90cdf4;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, transform 0.2s ease;
 }
 
 a:hover {
     color: #63b3ed;
     text-decoration: underline;
+    transform: scale(1.05);
+    /* Subtle zoom on hover */
 }
 
 ul {
@@ -116,7 +136,8 @@ ul {
 
 li {
     background: #3c4b64;
-    padding: 1rem;
+    padding: 1.2rem;
+    /* Slightly increased padding */
     margin-bottom: 1rem;
     border-radius: 8px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -124,7 +145,7 @@ li {
 
 li:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .site-footer {
@@ -132,8 +153,10 @@ li:hover {
     color: #e2e8f0;
     text-align: center;
     padding: 2rem;
-    margin-top: 3rem;
-    font-size: 1rem;
+    margin-top: auto;
+    /* Push footer to bottom */
+    font-size: 1.1rem;
+    /* Larger footer text */
 }
 
 .site-footer a {
@@ -147,8 +170,8 @@ li:hover {
 /* Responsive design */
 @media (max-width: 768px) {
     body {
-        font-size: 1.1rem;
-        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
     }
 
     .main-content {
@@ -157,11 +180,11 @@ li:hover {
     }
 
     .hero {
-        padding: 1.5rem;
+        padding: 2rem;
     }
 
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
 
     .site-header {
@@ -169,14 +192,23 @@ li:hover {
     }
 
     .site-title {
-        font-size: 1.8rem;
-    }
-
-    h1 {
         font-size: 2rem;
     }
 
+    h1 {
+        font-size: 2.2rem;
+    }
+
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+
+    .site-nav .page-link {
+        font-size: 1.1rem;
+        margin: 0 1rem;
+    }
+
+    .site-footer {
+        font-size: 1rem;
     }
 }
