@@ -1,40 +1,85 @@
 /* Custom styles to enhance jekyll-theme-modernist */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f7fa;
+    font-size: 1.2rem;
+    /* Increased base font size for better readability */
+    line-height: 1.7;
+    color: #AACCFF;
+    background-color: #222233;
+    padding: 1rem 2rem 0 2rem;
+    margin: 0;
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .site-header {
-    background-color: #1a202c;
-    padding: 1.5rem 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #2b6cb0, #1a202c);
+    /* Gradient for a modern look */
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .site-title {
     color: #ffffff !important;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    /* Larger header title */
+    margin: 0;
+    text-align: center;
 }
 
 .site-nav .page-link {
     color: #e2e8f0 !important;
     font-weight: 500;
-    margin-right: 1.5rem;
+    font-size: 1.1rem;
+    /* Slightly larger nav links */
+    margin: 0 1.5rem;
+    transition: color 0.3s ease;
 }
 
 .site-nav .page-link:hover {
-    color: #63b3ed !important;
+    color: #90cdf4 !important;
+}
+
+.hero {
+    background-color: #2d3748;
+    color: #e2e8f0;
+    padding: 2.5rem;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    /* Larger hero title */
+    margin-bottom: 1rem;
 }
 
 .main-content {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    /* Wider content area */
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #2d3748;
+    /* Darker content background to match theme */
+    color: #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 h1,
@@ -43,55 +88,110 @@ h3,
 h4,
 h5,
 h6 {
-    color: #2d3748;
+    color: #e2e8f0;
+    /* Light headings to contrast with dark background */
     font-weight: 600;
 }
 
 h1 {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    /* Larger h1 */
+    margin-bottom: 2rem;
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-top: 2rem;
-    border-bottom: 2px solid #e2e8f0;
+    font-size: 2rem;
+    /* Larger h2 */
+    margin-top: 2.5rem;
+    border-bottom: 2px solid #90cdf4;
+    /* Accent color for border */
     padding-bottom: 0.5rem;
 }
 
 a {
-    color: #3182ce;
+    color: #90cdf4;
+    /* Brighter link color to match theme */
     text-decoration: none;
-    transition: color 0.2s;
+    transition: color 0.2s ease;
 }
 
 a:hover {
-    color: #2b6cb0;
+    color: #63b3ed;
     text-decoration: underline;
 }
 
 ul {
-    list-style-type: disc;
-    margin: 1rem 0;
-    padding-left: 2rem;
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
 }
 
 li {
-    margin-bottom: 0.5rem;
+    background: #3c4b64;
+    /* Card-like background for list items */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.site-footer {
+    background-color: #1a202c;
+    color: #e2e8f0;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    /* Larger footer text */
+}
+
+.site-footer a {
+    color: #90cdf4;
+}
+
+.site-footer a:hover {
+    color: #63b3ed;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
+    body {
+        font-size: 1.1rem;
+        /* Slightly smaller base font on mobile */
+        padding: 0.5rem 1rem;
+    }
+
     .main-content {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .hero {
+        padding: 1.5rem;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
     }
 
     .site-header {
-        padding: 1rem 0;
+        padding: 1.5rem 0;
     }
 
     .site-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
     }
 }

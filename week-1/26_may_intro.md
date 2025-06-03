@@ -1,3 +1,8 @@
+---
+title: General
+layout: default
+---
+
 # 26 May 2025 Report - Day 1 - Introduction to bash scripting
 
 ## Introduction
@@ -15,7 +20,7 @@ The topics which I explored today was:
 
 3. Features of bash
 
-4. Commands, arguments and options  
+4. Commands, arguments and options
 
 5. Files, Directories and Tilde Notations
 
@@ -28,12 +33,15 @@ Some of the commands I learnt regarding the same are:
 ```bash
 ls
 ```
+
 2. `cd` command: This command is used to change the working directory
 
 ```bash
 cd
 ```
+
 3. `pwd` command: This command prints the current working directory
+
 ```bash
 pwd
 ```

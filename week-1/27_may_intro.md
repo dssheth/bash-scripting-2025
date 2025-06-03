@@ -1,3 +1,8 @@
+---
+title: General
+layout: default
+---
+
 # 27 May 2025 Report - Day 2 - Introduction to bash scripting
 
 ## Content
@@ -21,16 +26,19 @@ By pipe "|" the output of command can be directed to input of other command.
 Some of the commands I learnt regarding the same are:
 
 1. `ls *.[set]` command: This command will send the files which end with any letter in set after a period to ls as arguments.
+
 ```bash
 ls *.[cho]
 ```
 
 2. `ls *` command: This command lists all the files in the current directory
+
 ```bash
-ls *    
+ls *
 ```
 
 3. Some UNIX data filtering utilities are:
+
 ```bash
 cut
 grep

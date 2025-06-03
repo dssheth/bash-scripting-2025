@@ -1,3 +1,8 @@
+---
+title: General
+layout: default
+---
+
 # Here are the links to video lectures
 
 1. Chapter 1

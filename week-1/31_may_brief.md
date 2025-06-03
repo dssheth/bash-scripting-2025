@@ -1,3 +1,8 @@
+---
+title: General
+layout: default
+---
+
 # 31 May 2025 Report - Day 6 - Basics of bash scripting
 
 ## Content

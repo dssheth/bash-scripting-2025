@@ -2,7 +2,10 @@
 title: Bash Learning Internship 2025
 layout: default
 ---
+
+<div class="hero">
 # bash-learning-internship
+</div>
 
 This is my home repository for all the files related to my work of learning bash scripting in summer internship 2025.
 

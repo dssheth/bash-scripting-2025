@@ -1,33 +1,39 @@
-# 📚 ***Bash Basics: "Learning the Bash Shell (3rd Edition)"***
+---
+title: Chapter 01 - Bash Basics
+layout: default
+---
+
+# 📚 **_Bash Basics: "Learning the Bash Shell (3rd Edition)"_**
+
 ## 🚀 Introduction
+
 - **UNIX OS** : Created in 1970s
 - **Shell** : A User Interface to UNIX OS. It tranlates the user's commands to OS instructions and then give output.
 
 ![user shell and os relation](user_shell_os.png)
 
-- **Bash, or Bourne Again Shell**: A Character-based user interface. It is a powerful command-line interface for UNIX and Linux systems, allowing you to interact with your OS efficiently. 
+- **Bash, or Bourne Again Shell**: A Character-based user interface. It is a powerful command-line interface for UNIX and Linux systems, allowing you to interact with your OS efficiently.
 
 - Bash combines features from older shells like the Bourne shell, C shell, and Korn shell, making it versatile for both interactive use and scripting.
 
-
 ### 📜 History of Bash
 
-- **Bourne Shell**: First major shell started in 1979 known as ***`sh`*** on system.
+- **Bourne Shell**: First major shell started in 1979 known as **_`sh`_** on system.
 
-- **C Shell**: Known as ***`csh`***.  The commands are similar to the C Programming
+- **C Shell**: Known as **_`csh`_**. The commands are similar to the C Programming
 
-- **Korn Shell**: A Commercial version that have additional features along with best features of Bourne and C Shell, known as ***`ksh`***.
+- **Korn Shell**: A Commercial version that have additional features along with best features of Bourne and C Shell, known as **_`ksh`_**.
 
-- **Bourne Again Shell**: Called ***`bash`*** started in 1988. It has all UNIX utilities that are freely usable.
-  
+- **Bourne Again Shell**: Called **_`bash`_** started in 1988. It has all UNIX utilities that are freely usable.
+
   It is the standard shell included with Linux,free UNIX OS, and Apple's Mac OS X.
 
-### 🌟 Features of Bash 
+### 🌟 Features of Bash
 
 - **Command-line editing**: Modify commands easily using familiar editing modes.
 
 - **History mechanism**: Recall and reuse previous commands.
-- **Job control**: Run and manage multiple commands  simultaneously.
+- **Job control**: Run and manage multiple commands simultaneously.
 - **Scripting**: Automate repetitive tasks with scripts.
 - **Built-in commands**: Access a wide range of tools for file and text manipulation.
 
@@ -74,6 +80,7 @@ This lists the contents of the `/home` directory in a detailed format.
 ### 📁 Files and Directories
 
 There are 3 types of file:
+
 - **Regular Files** or **Text Files**: These contain human-readable content such as text, source code, or configuration data.
 
 - **Executable Files** or **Programs**: These are files you can run as programs. Some are binary executables (compiled programs), others are scripts (like shell scripts), that are text files the shell interprets.
@@ -98,16 +105,14 @@ Bash operates within a hierarchical file system, starting from the root director
 
   ```bash
   # Includes hidden files
-  ls -a  
+  ls -a
   ```
-
 
 **Visual Aid**:
 
 ![File System Hierarchy](image.png)
 
-*A diagram of the UNIX file system hierarchy, showing the root and common directories.*
-
+_A diagram of the UNIX file system hierarchy, showing the root and common directories._
 
 ### ~ Tilde Notation
 
@@ -115,23 +120,22 @@ The tilde (`~`) is a shortcut for your home directory. For example:
 
 ```bash
 # Go to home directory
-cd ~ 
+cd ~
 
 # List files in Downloads
-ls ~/Downloads 
+ls ~/Downloads
 ```
 
 ### 🔍 Filenames, Wildcards, and Pathname Expansion
 
 **Wildcards** are special characters that let you match multiple filenames, making commands more flexible.
 
-
 - `*`: Matches any string of characters.
 
   ```bash
   # Lists all .txt files
 
-  ls *.txt  
+  ls *.txt
   ```
 
 - `?`: Matches any single character.
@@ -139,7 +143,7 @@ ls ~/Downloads
   ```bash
   # Matches file1.txt, fileA.txt, etc.
 
-  ls file?.txt 
+  ls file?.txt
   ```
 
 - `[set]`: Matches any single character in the set.
@@ -147,20 +151,22 @@ ls ~/Downloads
   ```bash
   # Matches file1.txt, file2.txt, file3.txt
 
-  ls file[123].txt  
+  ls file[123].txt
   ```
+
 - `[!set]`: Matches any single character not in the set.
 
   ```bash
   # Matches file1.txt, file2.txt, file3.txt
 
-  ls file[123].txt  
+  ls file[123].txt
   ```
-The process of matching expressions containing
-wildcards to filenames is called **wildcard expansion** or
-**globbing**.
 
-**Tip**: Be cautious with wildcards in commands that  can affect multiple files. Always verify before running destructive commands.
+  The process of matching expressions containing
+  wildcards to filenames is called **wildcard expansion** or
+  **globbing**.
+
+**Tip**: Be cautious with wildcards in commands that can affect multiple files. Always verify before running destructive commands.
 
 **Pathname Expansion**:
 Bash expands wildcards into pathname before executing the command, a process called pathname expansion. For example:
@@ -175,10 +181,10 @@ ls /usr*
 Brace expansion generates multiple strings from a pattern, useful for creating lists or filenames.
 
 ```bash
-echo {a,b,c}.txt  
+echo {a,b,c}.txt
 # Outputs: a.txt b.txt c.txt
 
-echo {1..5}  
+echo {1..5}
 # Outputs: 1 2 3 4 5
 
 echo ki{n,t,ng}s
@@ -186,46 +192,50 @@ echo ki{n,t,ng}s
 ```
 
 **Tip**: bash requires at least one unquoted comma to perform an
-expansion; otherwise, the word is left unchanged.   
+expansion; otherwise, the word is left unchanged.
 
-## ↔️ Input and Output 
+## ↔️ Input and Output
+
 📌 Key Ideas of UNIX I/O scheme:
 
 - **Everything is a file**: Not just text files — hardware devices, directories, and programs too.
 
 - **Data flows in character** (byte) streams, not blocks or cards.
-  
+
   These ideas make UNIX systems easier and more flexible for programming and automation.
 
 ## Standard I/O
+
 UNIX program has way of
-accepting input called *standard input*,producing output called *standard output*, and a single
-way of producing error messages called *standard error*.
+accepting input called _standard input_,producing output called _standard output_, and a single
+way of producing error messages called _standard error_.
 
 UNIX utility programs
 are meant to perform a
 specific type of filtering operation on input text.
 
-> **Utility	and Purpose:**
-- `cat`:	Copies input to output
-- `grep`:	Searches for text patterns
+> **Utility and Purpose:**
+
+- `cat`: Copies input to output
+- `grep`: Searches for text patterns
 - `sort`: Sorts lines of text
-- `cut`:	Extracts specific fields or columns
+- `cut`: Extracts specific fields or columns
 - `tr`: Translates or deletes characters
 - `sed`: Edits text using rules
 
 ```bash
 #Using cat to print the input given as output
 
-cat 
+cat
 Hello World
 # Output: Hello World
 ```
+
 Use CTRL+D to stop the process in next line after pressing ENTER.
 
-
 ### -> I/O Redirection
-  Bash allows you to redirect input and output to control data flow.
+
+Bash allows you to redirect input and output to control data flow.
 
 ### Redirection Operators
 
@@ -239,7 +249,7 @@ Use CTRL+D to stop the process in next line after pressing ENTER.
 
   ```bash
   sort < names.txt
-  ``` 
+  ```
 
 **Tip**: To redirect both stdout and stdin to a file, use:
 
@@ -253,7 +263,7 @@ Pipelines connect the output of one command to the input of another using the pi
 
 ```bash
 # Lists only .txt files
-ls | grep .txt  
+ls | grep .txt
 
 #View file listing one page at a time:
 ls -l | more
@@ -302,6 +312,7 @@ command input1.txt input2.txt > output.txt &
 - Every job has a priority (higher number = lower priority).
 
 Use nice to lower a job’s priority:
+
 ```bash
 nice command
 ```
@@ -315,14 +326,14 @@ Special characters like `*`, `|`, and spaces have specific meanings in Bash. To 
 - **Single Quotes (`'`)**: Preserve all characters literally.
 
 ```bash
-echo 'Hello $USER' 
+echo 'Hello $USER'
 # Outputs: Hello $USER
 ```
 
 - **Double Quotes (`"`)**: Allow variable and command substitution.
 
 ```bash
-echo "Hello $USER"  
+echo "Hello $USER"
 # Outputs: Hello your_username
 ```
 
@@ -334,28 +345,35 @@ Use a backslash (`\`) before to escape a single special character meaning:
 echo 5 \* 3 \> 15 is a invalid inequality.
 # Outputs: 5 * 3 > 15 is a invalid inequality.
 ```
+
 - To use literal backslash
+
 ```bash
 '\' #surround with quotes
 \\  #backslash it
 ```
-**Quoting Quotation Marks**   
+
+**Quoting Quotation Marks**
+
 - To include double quotes inside a string, escape them using a backslash (\\):
+
 ```bash
 echo \"3 \* 3 \> 15\" is a invalid inequality.
 # Output: "3 * 3 > 15" is a invalid inequality.
 ```
+
 - Escape Single quotes in single quoted Strings
+
 ```bash
 # Use backslash if no other special character
-echo Hello everyone it\'s my Birthday 
+echo Hello everyone it\'s my Birthday
 
 # Close and Reopen Quotes:
 echo 'Hello everyone it'\''s my Birthday'
 ```
 
 - Quoting special characters:
-  
+
 ```bash
 find [path] [string]
 # Searches for filename starting from the current directory (.)
@@ -399,11 +417,13 @@ Get information on built-in commands:
 ```bash
 help cd
 ```
+
 For external commands or Unix/Linux commands:
 
 ```bash
 ls --help
 ```
+
 ### 🔧 Other Useful Commands
 
 - **`find`**: Search for files matching a pattern.
@@ -417,7 +437,6 @@ ls --help
   ```bash
   stty -a
   ```
-
 
 ## ✍️ Command-Line Editing and History
 
@@ -433,6 +452,7 @@ set -o emacs  # Switch back to emacs mode
 ```
 
 Common emacs key bindings:
+
 - **CTRL-A**: Move to the beginning of the line.
 - **CTRL-E**: Move to the end of the line.
 - **CTRL-W**: Delete the word before the cursor.
@@ -458,15 +478,16 @@ ls
 
 **Tip**: Use `CTRL-R` to search history interactively. Type part of a command, and press `CTRL-R` to cycle through matches.
 
-
 - **`.bash_history`**: File storing command history.
 
 - Show the history file path
-```bash
-echo $HISTFILE 
-``` 
 
-## 🔁 The ***fc*** command
+```bash
+echo $HISTFILE
+```
+
+## 🔁 The **_fc_** command
+
 The fc lets you edit and re-run a previous command using your preferred text editor.'
 
 ```bash
@@ -476,7 +497,9 @@ fc
 # To open specific command number:
 fc 10
 ```
+
 - We use -l with fc command to list the previous commands.
+
 ```bash
 # To list the last 16 commands:
 fc -l
@@ -485,7 +508,7 @@ fc -l
 fc -ln
 
 # To list history list from specific command number or a character in commands:
-fc -l 15 
+fc -l 15
 fc -l l
 
 # To list history list in specific range command numbers or characters:
@@ -495,10 +518,13 @@ fc -l c 20
 ```
 
 - To edit commands using different editor
+
 ```bash
 fc -e [Editor]
 ```
-fc runs the command after editing automatically. Thus, need to be careful to avoid dangerous in scripts. 
+
+fc runs the command after editing automatically. Thus, need to be careful to avoid dangerous in scripts.
+
 - The safer way is to redirect the history commands in a file and then edit and execute when ready.
 
 ```bash
@@ -506,6 +532,7 @@ fc -ln 5 > lastcommands
 vi lastcommands
 source lastcommands
 ```
+
 - The fc with -s reruns the previous commands if no other arguments given. The command can be modified if required, along with string search.
 
 ```bash
@@ -516,9 +543,11 @@ fc -s
 cs /home
 fs -s cs=cd cs
 ```
-## 🧠 Readline 
+
+## 🧠 Readline
 
 📚 **What Is Readline?**
+
 - A GNU library used by Bash and other text-based applications.
 - Supports Emacs and Vi modes.
 - Standardizes editing behavior across different programs.
@@ -528,13 +557,14 @@ Bash uses the Readline library to handle command-line editing. This powerful lib
 
 ### ⚙️ Readline Startup File – .inputrc
 
-When bash starts up, it reads the startup file and any settings there come into effect. 
+When bash starts up, it reads the startup file and any settings there come into effect.
 
 The Readline library can be customized using a startup file called .inputrc located in your home directory:
 
 ```bash
 ~/.inputrc
 ```
+
 - Each line binds a key to a function or macro.
 
 🎯 **Binding Keys**
@@ -549,6 +579,7 @@ Control-t: end-of-line
 
 ## RESULT: This makes CTRL-T move the cursor to the end of the line.
 ```
+
 🎯 **Binding Macros**
 A macro is simply a sequence of keystrokes inside single or double quotes.
 
@@ -556,23 +587,29 @@ A macro is simply a sequence of keystrokes inside single or double quotes.
 # Example: Binding CTRL-T with some text
 "\C-t": "Curiouser and curiouser!"
 ```
-🔐 *Escape Sequences in .inputrc*
-> Sequence	and their Meaning:
-> - \C-	:Control key prefix
-> - \M-	:Meta (Escape) key prefix
-> - \e	:Escape character
-> - \\\	:Backslash character(\\)
-> - \\<">	:Double quote (<">)
-> - \\'	:Single quote (')
 
-🔄 *Conditional Settings*
+🔐 _Escape Sequences in .inputrc_
+
+> Sequence and their Meaning:
+>
+> - \C- :Control key prefix
+> - \M- :Meta (Escape) key prefix
+> - \e :Escape character
+> - \\\ :Backslash character(\\)
+> - \\<"> :Double quote (<">)
+> - \\' :Single quote (')
+
+🔄 _Conditional Settings_
 You can write conditionals in .inputrc using:
+
 ```bash
 $if
-$else 
+$else
 $endif
 ```
+
 - Examples:
+
 ```bash
 # Only apply in Emacs mode
 $if mode=emacs
@@ -589,8 +626,9 @@ $if bash
 "\C-x": kill-whole-line
 $endif
 
-# To test for bash specifics, put this in .inputrc    
+# To test for bash specifics, put this in .inputrc
 $if bash
 ```
+
 **📋 Readline Variables**
 Here are some useful variables and what they do:
