@@ -21,7 +21,10 @@ include:
   - week-1/*.md
   - week-2/*.md
 
-# Custom CSS
-header_pages:
-  - index.md
-permalink: pretty
+# Custom includes
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      show_footer: true
