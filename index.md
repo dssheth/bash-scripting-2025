@@ -2,7 +2,6 @@
 title: Bash Learning Internship 2025
 layout: default
 ---
-
 # bash-learning-internship
 
 This is my home repository for all the files related to my work of learning bash scripting in summer internship 2025.
@@ -14,7 +13,7 @@ I joined the google classroom on May 26, 2025. And I began my work from the same
 Here are my notes of chapters made while studying the chapter for quick referencing in the videos.
 
 - [Chapter 01 - Bash Basics](notes/01_bash_basics/notes_01.md)
-- [Chapter 02 - Command Line Editing](notes/01_bash_basics/notes_01.md)
+- [Chapter 02 - Command Line Editing](notes/02_command_line_editing/notes_02.md)
 - [Chapter 03 - Customizing Your Environment](notes/03_customizing_your_env/notes_03.md)
 
 ## Week 1

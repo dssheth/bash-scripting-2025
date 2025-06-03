@@ -4,7 +4,7 @@ description: A website for my bash scripting learning notes and progress during 
 baseurl: "http://github.com/dssheth/bash-scripting-2025" # Set to "/repository-name" if hosting in a project repository
 url: "https://dssheth.github.io" # Replace with your GitHub Pages URL
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-modernist
 
 # Enable relative links for Markdown navigation
 plugins:
@@ -20,3 +20,8 @@ include:
   - notes/*.md
   - week-1/*.md
   - week-2/*.md
+
+# Custom CSS
+header_pages:
+  - index.md
+permalink: pretty
