@@ -1,7 +1,7 @@
 # Site settings
 title: Bash Learning Internship 2025
 description: A website for my bash scripting learning notes and progress during the 2025 summer internship.
-baseurl: "http://github.com/dssheth/bash-scripting-2025" # Set to "/repository-name" if hosting in a project repository
+baseurl: "/bash-scripting-2025"
 url: "https://dssheth.github.io" # Replace with your GitHub Pages URL
 markdown: kramdown
 theme: jekyll-theme-modernist
