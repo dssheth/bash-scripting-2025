@@ -1,0 +1,22 @@
+# Site settings
+title: Bash Learning Internship 2025
+description: A website for my bash scripting learning notes and progress during the 2025 summer internship.
+baseurl: "http://github.com/dssheth/bash-scripting-2025" # Set to "/repository-name" if hosting in a project repository
+url: "https://dssheth.github.io" # Replace with your GitHub Pages URL
+markdown: kramdown
+theme: minima
+
+# Enable relative links for Markdown navigation
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+# Include specific Markdown files
+include:
+  - README.md
+  - notes/*.md
+  - week-1/*.md
+  - week-2/*.md
