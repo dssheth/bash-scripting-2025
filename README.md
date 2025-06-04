@@ -44,3 +44,7 @@ Continuing the chapter 3.
 - [Day 08 - 02 June 2025 - Customizing Your Environment CH-3](/week-2/02_June_ch-3.md)
 
 - [Day 09 - 03 June 2025 - Customizing Your Environment CH-3](/week-2/03_june_ch-3.md)
+
+- [Day 10 - 04 June 2025 - Customizing Your Environment CH-3](/week-2/04_june_ch-3.md)
+
+
