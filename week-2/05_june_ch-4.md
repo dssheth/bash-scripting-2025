@@ -3,7 +3,7 @@ title: General
 layout: default
 ---
 
-# 4 June 2025 Report - Day 10 - Customizing the Environment
+# 5 June 2025 Report - Day 11 - Basic Shell Programming
 
 ## Content
 
