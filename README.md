@@ -56,6 +56,8 @@ Continuing the chapter 3.
 - [Day 14 - 08 June 2025 - Brief](/week-2/08_june_brief.md)
 
 
-## Week 2
+## Week 3
 
-- [Day 15 - 09 June 2025 - Video and Brief](/week-2/09_june_brief.md)
+- [Day 15 - 09 June 2025 - Video and Brief](/week-3/09_june_brief.md)
+
+- [Day 16 - 10 June 2025 - CH-4 Basic Shell Programming](/week-3/20_june_ch-4.md)
