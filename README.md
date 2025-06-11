@@ -60,4 +60,6 @@ Continuing the chapter 3.
 
 - [Day 15 - 09 June 2025 - Video and Brief](/week-3/09_june_brief.md)
 
-- [Day 16 - 10 June 2025 - CH-4 Basic Shell Programming](/week-3/20_june_ch-4.md)
+- [Day 16 - 10 June 2025 - CH-4 Basic Shell Programming](/week-3/10_june_ch-4.md)
+
+- [Day 17 - 11 June 2025 - CH-4 Basic Shell Programming](/week-3/11_june_ch-4.md)
