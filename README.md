@@ -65,3 +65,5 @@ Continuing the chapter 3.
 - [Day 17 - 11 June 2025 - CH-4 Basic Shell Programming](/week-3/11_june_ch-4.md)
 
 - [Day 18 - 12 June 2025 - Brief](/week-3/12_june_brief.md)
+
+- [Day 19 - 13 June 2025 - Brief](/week-3/13_june_brief.md)
