@@ -69,3 +69,5 @@ Continuing the chapter 3.
 - [Day 19 - 13 June 2025 - Brief](/week-3/13_june_brief.md)
 
 - [Day 20 - 14 June 2025 - Brief](/week-3/14_june_brief.md)
+
+- [Day 21 - 15 June 2025 - Brief](/week-3/15_june_brief.md)
