@@ -1,3 +1,12 @@
+---
+title: General
+layout: default
+---
+
+# 17 June 2025 Report - Day 23 - Flow Control
+
+## Content
+
 Today I uploaded the video-3 that includes chapter-4. Also I started with chapter-5 "Flow Control". The concepts I learnt about are:
 
 1. Flow Control:    
