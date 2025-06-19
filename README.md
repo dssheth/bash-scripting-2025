@@ -79,3 +79,5 @@ Continuing the chapter 3.
 - [Day 23 - 17 June 2025 - Flow Control](/week-4/17_june_ch-5.md)
 
 - [Day 24 - 18 June 2025 - Flow Control](/week-4/18_june_ch-5.md)
+
+- [Day 25 - 19 June 2025 - Flow Control](/week-4/19_june_ch-5.md)
