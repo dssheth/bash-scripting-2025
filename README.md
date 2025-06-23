@@ -87,3 +87,7 @@ Continuing the chapter 3.
 - [Day 27 - 21 June 2025 - Flow Control](/week-4/21_june_ch-5.md)
 
 - [Day 28 - 22 June 2025 - Flow Control](/week-4/22_june_ch-5.md)
+
+## Week 5
+
+- [Day 29 - 23 June 2025 - Options and varibles](/week-5/23_june_ch-6.md)
