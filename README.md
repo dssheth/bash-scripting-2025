@@ -91,3 +91,5 @@ Continuing the chapter 3.
 ## Week 5
 
 - [Day 29 - 23 June 2025 - Options and varibles](/week-5/23_june_ch-6.md)
+
+- [Day 30 - 24 June 2025 - Options and varibles](/week-5/24_june_ch-6.md)
