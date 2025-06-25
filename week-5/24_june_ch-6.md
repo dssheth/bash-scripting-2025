@@ -25,4 +25,4 @@ The commands learned are:
 declare [OPTION] variable=value
 ```
 
-2.
+
