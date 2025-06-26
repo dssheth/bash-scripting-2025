@@ -95,3 +95,5 @@ Continuing the chapter 3.
 - [Day 30 - 24 June 2025 - Options and varibles](/week-5/24_june_ch-6.md)
 
 - [Day 31 - 25 June 2025 - Options and varibles](/week-5/25_june_ch-6.md)
+
+- [Day 32 - 26 June 2025 - Options and varibles](/week-5/26_june_ch-6.md)
