@@ -101,3 +101,5 @@ Continuing the chapter 3.
 - [Day 33 - 27 June 2025 - Brief](/week-5/27_june_brief.md)
 
 - [Day 34 - 28 June 2025 - Brief](/week-5/28_june_brief.md)
+
+- [Day 35 - 29 June 2025 - Brief](/week-5/29_june_brief.md)
