@@ -103,3 +103,7 @@ Continuing the chapter 3.
 - [Day 34 - 28 June 2025 - Brief](/week-5/28_june_brief.md)
 
 - [Day 35 - 29 June 2025 - Brief](/week-5/29_june_brief.md)
+
+## Week 6
+
+- [Day 36 - 30 June 2025 - I/O and Command-Line Processing](/week-6/30_june_ch-7.md)
