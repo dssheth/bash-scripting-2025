@@ -23,8 +23,13 @@ command << label
 Here-document: The input
 label
 ```
+2. Some File descriptors
+```bash
+#reading input or giving output to multiple files at the same time
+<& n
+```
 
-2. `echo` commands and options
+3. `echo` commands and options
 ```bash
 echo
 
