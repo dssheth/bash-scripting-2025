@@ -108,4 +108,6 @@ Continuing the chapter 3.
 
 - [Day 36 - 30 June 2025 - I/O and Command-Line Processing](/week-6/30_june_ch-7.md)
 
-- [Day 37 - 1 July 2025 - I/O and Command-Line Processing](/week-6/1_july_ch-7.md)
+- [Day 37 - 01 July 2025 - I/O and Command-Line Processing](/week-6/01_july_ch-7.md)
+
+- [Day 38 - 02 July 2025 - I/O and Command-Line Processing](/week-6/02_july_ch-7.md)

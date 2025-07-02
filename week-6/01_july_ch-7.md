@@ -3,7 +3,7 @@ title: General
 layout: default
 ---
 
-# 1 July 2025 Report - Day 37 - I/O and Command-Line Processing
+# 01 July 2025 Report - Day 37 - I/O and Command-Line Processing
 
 ## Content
 
