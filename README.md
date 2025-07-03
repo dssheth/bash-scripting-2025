@@ -41,15 +41,15 @@ In this week, I began with learning the bash scripting basics from chapter 1, 2,
 
 Continuing the chapter 3.
 
-- [Day 08 - 02 June 2025 - Customizing Your Environment CH-3](/week-2/02_June_ch-3.md)
+- [Day 08 - 02 June 2025 - Customizing Your Environment](/week-2/02_June_ch-3.md)
 
-- [Day 09 - 03 June 2025 - Customizing Your Environment CH-3](/week-2/03_june_ch-3.md)
+- [Day 09 - 03 June 2025 - Customizing Your Environment ](/week-2/03_june_ch-3.md)
 
-- [Day 10 - 04 June 2025 - Customizing Your Environment CH-3_4](/week-2/04_june_ch-3_4.md)
+- [Day 10 - 04 June 2025 - Customizing Your Environment ](/week-2/04_june_ch-3_4.md)
 
-- [Day 11 - 05 June 2025 - Basic Shell Programming CH-4](/week-2/05_june_ch-4.md)
+- [Day 11 - 05 June 2025 - Basic Shell Programming ](/week-2/05_june_ch-4.md)
 
-- [Day 12 - 06 June 2025 - Basic Shell Programming CH-4](/week-2/06_june_ch-4.md)
+- [Day 12 - 06 June 2025 - Basic Shell Programming ](/week-2/06_june_ch-4.md)
 
 - [Day 13 - 07 June 2025 - Brief](/week-2/07_june_brief.md)
 
@@ -111,3 +111,5 @@ Continuing the chapter 3.
 - [Day 37 - 01 July 2025 - I/O and Command-Line Processing](/week-6/01_july_ch-7.md)
 
 - [Day 38 - 02 July 2025 - I/O and Command-Line Processing](/week-6/02_july_ch-7.md)
+
+- [Day 39 - 03 July 2025 - I/O and Command-Line Processing](/week-6/03_july_ch-7.md)
