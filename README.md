@@ -113,3 +113,5 @@ Continuing the chapter 3.
 - [Day 38 - 02 July 2025 - I/O and Command-Line Processing](/week-6/02_july_ch-7.md)
 
 - [Day 39 - 03 July 2025 - I/O and Command-Line Processing](/week-6/03_july_ch-7.md)
+
+- [Day 40 - 04 July 2025 - Process Handling ](/week-6/04_july_ch-8.md)

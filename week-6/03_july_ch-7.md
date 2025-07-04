@@ -7,7 +7,7 @@ layout: default
 
 ## Content
 
-Today I learnt about the topics:
+Today I read about different commands in bash scripting. Explored how bash scripting is used in projects. I completed the chapter-7 and learnt about the topics:
 
 1. Command-Line Processing :    
 Have 12 steps to run in command line. 
