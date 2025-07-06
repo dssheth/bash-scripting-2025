@@ -117,3 +117,5 @@ Continuing the chapter 3.
 - [Day 40 - 04 July 2025 - Process Handling ](/week-6/04_july_ch-8.md)
 
 - [Day 41 - 05 July 2025 - Process Handling ](/week-6/05_july_ch-8.md)
+
+- [Day 42 - 06 July 2025 - Process Handling ](/week-6/06_july_ch-8.md)
