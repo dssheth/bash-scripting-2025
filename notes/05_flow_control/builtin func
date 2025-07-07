@@ -1,0 +1,6 @@
+cd () {
+    builtin cd "$@"        # Run built-in cd with arguments
+    es=$?                  # Save exit status
+    echo "$OLDPWD --> $PWD"
+    return $es             # Return same status as cd
+}

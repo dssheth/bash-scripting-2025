@@ -11,6 +11,9 @@ Here are my notes of chapters made while studying the chapter for quick referenc
 - [Chapter 01 - Bash Basics](/notes/01_bash_basics/notes_01.md)
 - [Chapter 02 - Command Line Editing](/notes/01_bash_basics/notes_01.md)
 - [Chapter 03 - Customizing Your Environment](/notes/03_customizing_your_env/notes_03.md)
+- [Chapter 04 - Basic Shell Programming](/notes/04_basic_shell_programming/notes_04.md)
+- [Chapter 05 - Flow Control](/notes/05_flow_control/notes_05.md)
+- [Chapter 06 - Command Line Options and Typed Variables](/notes/06_options_and_variables/notes_06.md)
 
 ... Add more
 
@@ -113,3 +116,7 @@ Continuing the chapter 3.
 - [Day 41 - 05 July 2025 - Process Handling ](/week-6/05_july_ch-8.md)
 
 - [Day 42 - 06 July 2025 - Process Handling ](/week-6/06_july_ch-8.md)
+
+## Week 6
+
+- [Day 43 - 07 July 2025 - Process Handling ](/week-6/07_july_ch-8.md)
