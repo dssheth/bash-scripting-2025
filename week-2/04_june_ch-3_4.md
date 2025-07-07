@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 4 June 2025 Report - Day 10 - Customizing the Environment
 
@@ -56,7 +53,7 @@ source scriptname
 ```
 
 5. `chmod` command: Give permission to execute the script
+
 ```bash
 chmod +x scriptname
 ```
-

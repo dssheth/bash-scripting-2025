@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 01 July 2025 Report - Day 37 - I/O and Command-Line Processing
 
@@ -20,12 +17,13 @@ Today I made two small projects to learn bash scripting in terminal such as crea
 Some of the commands learnt are:
 
 1. Some backslash commands
+
 ```bash
 #For backslash
 echo \b "text"
 
 ##escape character
-echo \e 
+echo \e
 echo \E
 
 #for newline
@@ -36,16 +34,20 @@ echo \t "text"
 ```
 
 2. `printf` command: similar to echo, but no newline creation
-Syntax
+   Syntax
+
 ```bash
 printf format-string [arguments]
 ```
+
 3. `%b` in printf: Intereprets echo style escape sequence
+
 ```bash
 printf "%b\n" 'text'
 ```
 
 4. `%q` in printf: prints string argument in way that can be used for shell output
+
 ```bash
 printf "%q\n" 'text'
 ```

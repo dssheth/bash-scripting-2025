@@ -1,8 +1,3 @@
----
-title: Chapter 01 - Bash Basics
-layout: default
----
-
 # 📚 **_Bash Basics: "Learning the Bash Shell (3rd Edition)"_**
 
 ## 🚀 Introduction

@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 23 June 2025 Report - Day 29 - Commmand-line options and typed variables
 
@@ -11,15 +8,17 @@ Today I completed all notes of chapter-5 and practiced the examples. Also starte
 
 1. Command-line Options
 
-2. shift:   
-It shifts the number of arguments with the command.
+2. shift:  
+   It shifts the number of arguments with the command.
 
 3. Options with arguments
 
 4. getopts
 
 The commands I learned are:
-1. *`shift`* syntax:
+
+1. _`shift`_ syntax:
+
 ```bash
 if [ $1 = -o ]; then
 process the -o option
@@ -28,7 +27,8 @@ fi
 normal processing of arguments...
 ```
 
-2. getopt syntax:       
+2. getopt syntax:
+
 ```bash
 while getopts ":ab:c" opt; do
   case $opt in

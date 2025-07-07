@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 27 May 2025 Report - Day 2 - Introduction to bash scripting
 

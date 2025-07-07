@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 05 July 2025 Report - Day 41 - Process Handling
 
@@ -16,6 +13,7 @@ Today I continued with the chapter-8 and learnt about the topics:
 The commands learnt are:
 
 1. The ways to use kill command
+
 ```bash
 kill [options] PID
 kill -SIGNAL PID
@@ -23,9 +21,11 @@ kill %job_number
 ```
 
 2. Using ps
+
 ```bash
-ps 
+ps
 
 # to view all info
 ps -a
 
+```

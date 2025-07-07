@@ -1,8 +1,3 @@
----
-title: General
-layout: default
----
-
 # bash-learning-internship
 
 This is my home repository for all the files related to my work of learning bash scripting in summer internship 2025.
@@ -54,7 +49,6 @@ Continuing the chapter 3.
 - [Day 13 - 07 June 2025 - Brief](/week-2/07_june_brief.md)
 
 - [Day 14 - 08 June 2025 - Brief](/week-2/08_june_brief.md)
-
 
 ## Week 3
 

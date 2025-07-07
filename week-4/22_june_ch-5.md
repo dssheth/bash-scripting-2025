@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 22 June 2025 Report - Day 28 - Flow Control
 
@@ -11,7 +8,7 @@ Today I completed the chapter-5 Flow Control and also made the notes for the vid
 
 1. for loop
 
-2. case 
+2. case
 
 3. select
 
@@ -19,7 +16,8 @@ Today I completed the chapter-5 Flow Control and also made the notes for the vid
 
 The codes I have learnt are:
 
-1. Syntax for *`case`*
+1. Syntax for _`case`_
+
 ```bash
 case expression in
   pattern1)
@@ -39,10 +37,11 @@ do
 done
 ```
 
-3.Syntax for *`while`* loop
+3.Syntax for _`while`_ loop
+
 ```bash
 while condition
 do
   statements
-done 
+done
 ```

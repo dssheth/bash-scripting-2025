@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 26 June 2025 Report - Day 32 - Commmand-line options and typed variables
 

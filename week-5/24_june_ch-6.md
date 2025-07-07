@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 24 June 2025 Report - Day 30 - Commmand-line options and typed variables
 
@@ -17,12 +14,10 @@ Today I made the video for week and continued with the chapter-6. The topics I l
 
 4. Arithmetic for loops
 
-
 The commands learned are:
 
-1. *`declare`* command: gives the variable a specific type or attribute.
+1. _`declare`_ command: gives the variable a specific type or attribute.
+
 ```bash
 declare [OPTION] variable=value
 ```
-
-

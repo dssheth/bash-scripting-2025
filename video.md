@@ -1,12 +1,7 @@
----
-title: General
-layout: default
----
-
 # Here are the links to video lectures
 
-1. Chapter 1
+1. [Chapter 1](#)
 
-2. Chapter 2
+2. [Chapter 2](#)
 
-3. Chapter 3
+3. [Chapter 3](#)

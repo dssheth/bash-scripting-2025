@@ -1,7 +1,4 @@
----
-title: General
-layout: default
----
+- [Back to Homepage](/README.md)
 
 # 20 June 2025 Report - Day 26 - Flow Control
 
@@ -10,8 +7,7 @@ layout: default
 Today I learned about the *`for `*loop in the bash and how we can execute it and practiced different types of loops and how it runs in shell as scripts.
 Also looked for the solutions to different problems and tasks in the chapter and understood the scripts and how we execute them. Also made the notes for the chapter and the video for the week.
 
-
-Syntax of  the *`for`* loop
+Syntax of the _`for`_ loop
 
 ```bash
 for name  [in list]
