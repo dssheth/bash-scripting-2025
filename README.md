@@ -120,3 +120,5 @@ Continuing the chapter 3.
 ## Week 6
 
 - [Day 43 - 07 July 2025 - Process Handling ](/week-6/07_july_ch-8.md)
+
+- [Day 44 - 08 July 2025 - Brief ](/week-6/08_july_brief.md)
