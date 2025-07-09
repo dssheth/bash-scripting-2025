@@ -117,8 +117,10 @@ Continuing the chapter 3.
 
 - [Day 42 - 06 July 2025 - Process Handling ](/week-6/06_july_ch-8.md)
 
-## Week 6
+## Week 7
 
-- [Day 43 - 07 July 2025 - Process Handling ](/week-6/07_july_ch-8.md)
+- [Day 43 - 07 July 2025 - Process Handling ](/week-7/07_july_ch-8.md)
 
-- [Day 44 - 08 July 2025 - Brief ](/week-6/08_july_brief.md)
+- [Day 44 - 08 July 2025 - Brief ](/week-7/08_july_brief.md)
+
+- [Day 45 - 09 July 2025 - Debugging Shell Programs ](/week-7/09_july_ch-9.md)
