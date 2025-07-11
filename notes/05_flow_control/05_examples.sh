@@ -180,7 +180,7 @@ done
 
 
 ## PS3 example- task-5
-PS3="Pick a color number: "
+PS3="Pick a color senumber: "
 select color in red green blue; do
   echo "You picked $color"
   break

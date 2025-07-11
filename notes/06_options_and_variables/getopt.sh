@@ -2,7 +2,7 @@ while getopts ":ab:c" opt; do
     case $opt in
         a ) echo "Hello! The option 'a' is working"
         ;;
-        ba ) echo "The name is: $OPTARG"
+        b ) echo "The name is: $OPTARG"
             #$OPTARG is the option's argument
         ;;
         c ) echo "The files are ready."

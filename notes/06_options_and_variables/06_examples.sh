@@ -1,9 +1,9 @@
 ## examples for  command-line options
-hello welcome hi
+bash hello welcome hi
 # welcome is $1 and hi is $2
 
 # if use options
-hello -o welcome hi
+bash hello -o welcome hi
 
 
 # example for the shift command
@@ -14,9 +14,9 @@ echo "Now first argument: $1"
 
 
 #example for the loop and case used script
-$ ./loop_shift.sh -a -b test.txt
-Processing option -a
-Processing option -b
+bash ./loop_shift.sh -a -b test.txt
+#Processing option -a
+#Processing option -b
 
 
 ## example for options with arguments
@@ -59,7 +59,7 @@ shift $(($OPTIND - 1))
 echo "Shifting done and the files are: $@"
 
 # Run with
-bash getopts.sh -abalice -c albums.txt highest.sh
+bash getopt.sh -abalice -c albums.txt highest.sh
 
 
 ##examples for declare
@@ -126,6 +126,8 @@ pushd +2
 
 popd +1
 
+#example to check the limit in getNdirs
+bash limit_getNdirs.sh pushd +5
 
 ## example for arithmetic for loops
 #infinite loop
@@ -142,7 +144,7 @@ echo ${greet[2]}
 echo ${!greet[@]}
 
 #length of element or find values
-echo {#greet[i]}
+echo ${#greet[i]}
 
 
 ## the selection sort to bubble sort

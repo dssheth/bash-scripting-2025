@@ -1,11 +1,11 @@
-# 📘 Chapter 6 Notes: Command-Line Options and Typed Variables
+# 📘 Chapter 6: Command-Line Options and Typed Variables
 
 🔹 **Introduction**
 - Till now looked on how to process command-line arguments, write functions and shell scripts
 - Not focused on handling the *options* preceded by a dash (*`-`*).
 - Not learned how to do arithmetic.
 
-## Command-Line Options
+## 🚀 Command-Line Options
 
 🔹 Positional Parameters like *`$1`*, *`$2`* and other variables like *`*`* or *`#`* if used with the *options*.
 ```bash
@@ -63,7 +63,7 @@ filename=$1
 howmany=${2:-10}
 sort -nr $filename | head -$howmany
 ```
-- he actual syntax for the script, where N=10 as default
+- The actual syntax for the script, where N=10 as default
 ```bash
 highest filename [N]
 ```
@@ -222,7 +222,7 @@ for filename in "$@"; do
 done
 ```
 
-## Typed Variables
+## ⌨️ Typed Variables
 
 The *`declare`* command can be used to give variable a specific type or attribute, such as: Integer, Read-only , Exported, Array.
 
@@ -339,7 +339,7 @@ where `1`=true and `0`=false.
 
 | Operator       | Meaning                              |
 | -------------  | ------------------------------------ |
-| `<` / `>`      | Less than                            | 
+| `<` / `>`      | Less than / Greater than             | 
 | `<=`/ `>=`     | Less than / Greater than or equal to |
 | `==`/`!=`      | Equal to / Not equal to              |
 | `&&` / `\|\|`  | Logical AND / OR                     |
@@ -373,7 +373,7 @@ Bash supports `base-N numbers` in arithmetic expressions with syntax *`B # N`*
 | `-eq`    | Equal to                |
 | `-ne`    | Not equal to            |
 
-- It returns the result (exit status) of *`0`* as false and *`1`* as true.
+- It returns the result (exit status) of *`0`* and *`1`* 
 
 - Using `[ ... ]`
 ```bash
@@ -383,18 +383,15 @@ if [ "$a" -gt "$b" ]; then
   echo "$a is greater than $b"
 fi
 ```
-- These can be combined using the (\\) before parentheses to escape them.
-```bash
-echo $["\(3 -gt 2 \) || \( 4 -le 1 \)"]
-```
+
 - Using parentheses `$((...))`
 ```bash
-[ echo $(((3 > 2) && (4 <= 1))) = 1 ]
+echo [$(((3 > 2) && (4 <= 1))) = 1 ]
 ```
 
 - More clear way using `((...))`
 ```bash
-echo (( (3 > 2) && (4 <= 1) ))
+(( (3 > 2) && (4 <= 1) ))
 
 #the previous example can be 
 if (( a > b )); then
@@ -402,7 +399,7 @@ if (( a > b )); then
 fi
 ```
 
-### Arithmetic Variables and Assignment
+### 📝 Arithmetic Variables and Assignment
 
 - The integer variables can be assigned using *`declare`*.
 - The arithmetic expressions can be evaluated and assigned to variables using *`let`*.
@@ -411,7 +408,7 @@ fi
 ```bash
 let intvar=expression
 ```
-- No need for `$((...))` in expression as let treats the right side as arithmetic expression.
+- No need for `$((...))` in expression as *`let`* treats the right side as arithmetic expression.
 - Quote the expression if it contains special characters like `*`, `#`, or whitespace.
 
 📜 Some Sample Integer Expression Assignments
@@ -558,6 +555,14 @@ popd () {
   fi
 }
 ```
+- Check with limit to check if the number input is valid or not.
+- If not valid, print the error message.
+```bash
+if (( $1 >= $(echo "$DIR_STACK" | wc -w) )); then
+  echo "Error: Index $1 out of range"
+  return 1
+fi
+```
 --> There is *`dirs`* command which lists the current directories in the stack.
 - There are options like *`-n`* to print out the nth directory  and *`-l`* to provide long list.
 ```bash
@@ -652,7 +657,7 @@ To know what values are in indices in array
 ${!array[@]}
 ```
 
-To know lenth of element or find values in array
+To know length of element or find values in array
 ```bash
 ${#array[i]}
 

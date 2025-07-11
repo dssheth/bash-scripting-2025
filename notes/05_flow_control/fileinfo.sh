@@ -21,3 +21,8 @@ finfo () {
   if [ -w "$1" ]; then echo "you have write permission."; fi
   if [ -x "$1" ] && [ ! -d "$1" ]; then echo "you have execute permission."; fi
 }
+
+for filename in "$@"; do
+  finfo "$filename"
+  echo
+done

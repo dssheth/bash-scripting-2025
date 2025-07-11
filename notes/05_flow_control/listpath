@@ -1,5 +1,7 @@
-IFS=:
-for dir in $PATH
-do
-  ls -ld $dir
-done
+RNA 
+DNA 
+Protein 
+Carbohydrates 
+Virus 
+Gene 
+Bacteria
