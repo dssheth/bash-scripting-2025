@@ -130,3 +130,5 @@ Continuing the chapter 3.
 - [Day 47 - 11 July 2025 - Debugging Shell Programs ](/week-7/11_july_ch-9.md)  
 
 - [Day 48 - 12 July 2025 - Brief ](/week-7/12_july_brief.md)
+
+- [Day 49 - 13 July 2025 - Debugging Shell Programs ](/week-7/13_july_ch-9.md)  
