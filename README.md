@@ -138,3 +138,5 @@ Continuing the chapter 3.
 - [Day 50 - 14 July 2025 - Debugging Shell Programs ](/week-8/14_july_ch-9.md)  
 
 - [Day 51 - 15 July 2025 - Bash Administration and Project_brief](/week-8/15_july_ch-10.md)  
+
+- [Day 52 - 16 July 2025 - Brief](/week-8/16_july_brief.md)  
