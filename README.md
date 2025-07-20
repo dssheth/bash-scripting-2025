@@ -146,3 +146,5 @@ Continuing the chapter 3.
 - [Day 54 - 18 July 2025 - Bash Administration](/week-8/18_july_ch-10.md)  
 
 - [Day 55 - 19 July 2025 - Bash Administration](/week-8/19_july_ch-10.md)  
+
+- [Day 56 - 20 July 2025 - Brief](/week-8/20_july_brief.md)  
