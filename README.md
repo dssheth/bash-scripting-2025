@@ -14,8 +14,8 @@ Here are my notes of chapters made while studying the chapter for quick referenc
 - [Chapter 04 - Basic Shell Programming](/notes/04_basic_shell_programming/notes_04.md)
 - [Chapter 05 - Flow Control](/notes/05_flow_control/notes_05.md)
 - [Chapter 06 - Command Line Options and Typed Variables](/notes/06_options_and_variables/notes_06.md)
-
-... Add more
+- [Chapter 07 - I/O and Command-line Processing](/notes/07_io_cli_processing/notes_07.md)
+- [Chapter 08 - Process Handling](/notes/08_process_handling/notes_08.md)
 
 ## Week 1
 
@@ -149,4 +149,12 @@ Continuing the chapter 3.
 
 - [Day 56 - 20 July 2025 - Brief](/week-8/20_july_brief.md)  
 
-- [Day 57 - 21 July 2025 - Brief](/week-8/21_july_brief.md)  
+## Week 9
+
+- [Day 57 - 21 July 2025 - Brief](/week-9/21_july_brief.md)  
+
+- [Day 58 - 22 July 2025 - Brief](/week-9/22_july_brief.md)
+
+- [Day 59 - 23 July 2025 - Brief](/week-9/23_july_brief.md)
+
+- [Day 60 - 24 July 2025 - Brief](/week-9/24_july_brief.md)

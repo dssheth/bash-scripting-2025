@@ -1,0 +1,10 @@
+#! /bin/bash
+
+{
+  hello=hi
+  trap "echo 'You hit CTRL-C!'" INT
+}
+while true; do
+  echo "\$hello is $hello"
+  sleep 5
+done

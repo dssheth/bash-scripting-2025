@@ -1,0 +1,10 @@
+#! /bin/bash
+
+settrap() {
+  trap "echo 'You hit CTRL-C!'" INT
+}
+settrap
+
+while true;do
+  sleep 60; 
+done
