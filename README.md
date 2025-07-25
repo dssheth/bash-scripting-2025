@@ -155,6 +155,8 @@ Continuing the chapter 3.
 
 - [Day 58 - 22 July 2025 - Brief](/week-9/22_july_brief.md)
 
-- [Day 59 - 23 July 2025 - Brief](/week-9/23_july_brief.md)
+- [Day 59 - 23 July 2025 - GPRC6A_Brief](/week-9/23_july_brief.md)
 
-- [Day 60 - 24 July 2025 - Brief](/week-9/24_july_brief.md)
+- [Day 60 - 24 July 2025 - GPRC6A_Brief](/week-9/24_july_brief.md)
+
+- [Day 61 - 25 July 2025 - GPRC6A_brief](/week-9/24_july_brief.md)

@@ -1,6 +1,6 @@
 - [Back to Homepage](/README.md)
 
-# 23 July 2025 Report - Day 59 - Brief
+# 23 July 2025 Report - Day 59 - GPRC6A Brief
 
 ## Content
 
